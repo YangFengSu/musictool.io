@@ -1,4 +1,4 @@
-# suyangfeng_musictool.io
+# musictool.io
 I mainly use 'Python' and 'ffmpeg' to convert m4a and flac type files to mp3 files, and the executable file exe under folder bin can be used in an environment without python, provided that the user has installed ffmpeg .exe program
 
 How to use:
