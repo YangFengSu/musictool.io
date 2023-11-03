@@ -2,8 +2,7 @@ import os
 
 
 def my_input():
-    print('\n---\nPlease enter the destination path.\n请输入待转换的歌曲文件的路径，直接点一下路径栏，把地址复制过来就可以\n地址示例:E:\\最近常用\\temp\\m4a文件夹')
-    return input()
+    return input('\n---\nPlease enter the destination path.\n请输入待转换的歌曲文件的路径，直接点一下路径栏，把地址复制过来就可以\n地址示例:E:\\最近常用\\temp\\m4a文件夹')
 
 
 if __name__ == '__main__':
