@@ -15,10 +15,10 @@ if __name__ == '__main__':
                 try:
                     if i.split('.')[-1] == 'm4a':
                         last_list.append('ffmpeg -i {} -acodec libmp3lame -q:a 2 \"mp3\\{}.mp3\"'.format(i, i.split('.')[0]))
-                    elif i.split('.')[-1] == 'flac':
+                    elif i.split('.')[-1] == 'flac' or i.split('.')[-1] == 'mp4':
                         last_list.append('ffmpeg -i \"{}\" -q:a 0 -map a \"mp3\\{}.mp3\"'.format(i, i.split('.')[0]))
                     else:
-                        continue  # 当然可以添加其他文件类型，这里暂时不添加，因为主流就是m4a和flac
+                        continue  # 当然可以添加其他文件类型，这里暂时不添加，因为主流就是m4a和flac，补充了mp4
                 except IndexError:
                     continue  # 可能不可分，比如文件夹，那么不管它
 
