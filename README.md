@@ -8,9 +8,8 @@ How to use:
 4. You can find the mp3 directory in the folder where the bat file is located, which is the generated mp3 file
 
 Where to download ffmpeg.exe:
-https://ffmpeg.org/
-
-https://jeremylee.sh/bins/
+[Official website](https://ffmpeg.org/)
+[Download website](https://jeremylee.sh/bins/)
 
 
 我主要使用‘python’和‘ffmpeg’实现将m4a和flac类型文件转换成mp3格式的文件，文件夹bin下的可执行文件exe可以在没有python的环境下使用，==前提是用户安装了ffmpeg.exe程序==
@@ -27,7 +26,6 @@ ffmpeg使用时要么选择把ffmpeg.exe添加到（运行路径）所在的文�
 4. 你可以在bat文件所在的文件夹中找到mp3目录，里面就是生成的mp3文件了
 
 下载ffmpeg网址：
-https://ffmpeg.org/
-
-https://jeremylee.sh/bins/
+[官网](https://ffmpeg.org/)
+[软件下载地址](https://jeremylee.sh/bins/)
 
